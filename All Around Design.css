@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family:  Kristen ITC;
+}
+
+body {
+  font-size: 120%;
+  background: #2980b9;
+}
+
+.header {
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 50px;
+}
+
+form{
+  margin: -80px;
+}
+
+form, .content {
+  padding: 100px;
+}
+
+.container label {
+  font-size: 20px;
+}
+
+.container input {
+  height: 35px;
+  font-size: 16px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.button {
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border: white solid;
+  border-radius: 15px;
+}
+
+.button:hover{
+  transition: 0.8s ease;
+  background-color: white;
+  font-size: 20px;
+  color: #2c3e50;
+  border-color: #2c3e50;
+  padding: 5px;
+}
+
+.buttons{
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border: white solid;
+  border-radius: 15px;
+}
+
+.buttons:hover{
+  transition: 0.8s ease;
+  background-color: white;
+  font-size: 20px;
+  color: #2c3e50;
+  border-color: #2c3e50;
+  padding: 5px;
+}
+
+.dots{
+  color: transparent;
+}
+
+.error {
+  color:  #2c3e50; 
+  background: transparent;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.success {
+  font-size: 30px;
+  color: white; 
+  background: transparent; 
+  margin-bottom: 20px;
+}
+
+.logout{
+  margin-top: -320px;
+  margin-right: -60px;
+  font-size: 23px;
+  float: right;
+  padding: 10px;
+  color: #2c3e50;
+  border:  #2c3e50 solid;
+  border-radius: 10px;
+}
+
+.logout:hover{
+  background-color: #2980b9;
+  font-size: 23px;
+  padding: 10px;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+}
+
+.iconreg{
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -13px;
+}
+
+.wordreg{
+  color: white;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+.iconlog{
+  height: 80px;
+  width: 80px;
+  float: left;
+  margin-left: 20px;
+  margin-top: -13px;
+}
+
+.wordlog{
+  color: white;
+  margin-top: 50px;
+  margin-left: 30px;
+  font-size: 35px;
+}
+
+.iconindex{
+  height: 130px;
+  width: 130px;
+  float: left;
+  margin-left: 600px;
+  margin-top: -90px;
+}
+
+.wordindex{
+  color: white;
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+.indexportal{
+  display: block;
+}

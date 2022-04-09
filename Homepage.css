@@ -1,0 +1,99 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Kristen ITC; 
+}
+
+body{
+	
+	background: #2980b9;
+	background-size: cover;
+	background-position: center; 
+}
+
+ul {
+	float: center;
+	list-style-type: none;
+	margin-top: 400px;
+	display: block;
+	background-color: transparent;
+	background-position: center;
+	top: 100px;
+}
+
+ul li{
+	 display: inline-block;
+ }
+
+ ul li a{
+ 	text-decoration: none;
+ 	color: white;
+ 	padding: 5px 20px;
+ 	border: 3px solid;
+ 	border-radius: 10px;
+ }
+
+ ul li a:hover{
+	background-color: white; 
+	color: #2c3e50;
+ 	padding: 10px;
+ 	margin: 10px;
+ }
+
+li {
+	float: center;
+	display: block;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align:;
+	padding: ;
+	text-decoration: none;
+	transition: 0.5s ease;
+	margin-top: 20px;
+}
+
+ul li.active a{
+	background-color: transparent;
+	color: #0000;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.main{
+	max-width: 1300px;
+	margin:auto;
+}
+
+.title{
+	float: center;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	font-size: 80px;
+	color: white;
+}
+
+.title h1{
+	color:  #fff;
+	font-size:  63px;
+	margin-top: 150px;
+	float: center;
+}
+
+ .dots{
+ 	color: transparent;
+ }
+
+.word{
+	margin-top: 50px;
+	font-size: 70px;
+	color: white;
+}
+
+.icon{
+ 	height: 200px;
+ 	width: 200px;
+ }
